@@ -1,0 +1,10 @@
+.dnd-drop-item {
+  opacity: 1;
+}
+.table-row-drag-flight-sevice {
+  background-color: #fff;
+  &.MuiTableCell-root {
+    border: 1px solid #f7f7f7;
+    border-bottom: 4px solid #f7f7f7;
+  }
+}

@@ -1,0 +1,76 @@
+.dialog-post-item-media-manager {
+  &-in {
+    padding: 5px 15px;
+    margin: 5px 15px;
+  }
+  &-left,
+  &-right {
+    border: 1px solid #eee;
+  }
+  &-left {
+    &-head {
+      display: flex;
+      align-items: center;
+      margin-top: 10px;
+      justify-content: flex-end;
+    }
+    &-body {
+      display: flex;
+      align-items: flex-start;
+      align-content: flex-start;
+      flex-wrap: wrap;
+      height: 582px;
+      width: 412px;
+      margin: auto;
+      overflow: auto;
+      &-item {
+        height: 120px;
+        display: inline-block;
+        position: relative;
+        margin: 6px;        
+        &-in {
+          border-radius: 4px;                   
+          height: 100%;
+          display: flex;
+          justify-items: center;
+          background-color: black;
+        }
+        svg {
+          position: absolute;
+          top: 10px;
+          right: 10px;
+        }
+      }
+    }
+    // scrollbar
+    &-body::-webkit-scrollbar {
+      width: 5px;
+    }
+    &-body::-webkit-scrollbar-track {
+      background: #f1f1f1;
+    }
+    &-body::-webkit-scrollbar-thumb {
+      background: #888;
+    }
+    &-body::-webkit-scrollbar-thumb:hover {
+      background: red;
+    }
+  }
+  &-right {
+    &-body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 429px;
+      height: 652px;
+      overflow: hidden;
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+    &-body.has-data {
+      background-color: black;
+    }
+  }
+}

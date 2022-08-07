@@ -1,0 +1,74 @@
+[
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.tripi.social.develop",
+            "sha256_cert_fingerprints": [
+                "49:AC:4B:89:98:28:11:BC:ED:33:72:39:BF:6E:01:65:35:6B:C3:29:D5:E3:8D:B2:B6:F5:00:96:1C:81:0D:7A",
+                "2E:C0:8C:DE:92:4F:21:39:82:BD:A9:FE:BD:FF:71:19:1B:6C:BC:7E:77:EC:5C:00:02:10:DD:51:86:5C:95:8A"
+            ]
+        }
+    },
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.tripi.social",
+            "sha256_cert_fingerprints": [
+                "49:AC:4B:89:98:28:11:BC:ED:33:72:39:BF:6E:01:65:35:6B:C3:29:D5:E3:8D:B2:B6:F5:00:96:1C:81:0D:7A",
+                "2E:C0:8C:DE:92:4F:21:39:82:BD:A9:FE:BD:FF:71:19:1B:6C:BC:7E:77:EC:5C:00:02:10:DD:51:86:5C:95:8A"
+            ]
+        }
+    },
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.tripi.android",
+            "sha256_cert_fingerprints": [
+                "45:07:38:EF:D4:2C:DD:CC:D0:F4:D7:E5:FF:E2:D9:C6:89:88:E6:35:1B:C8:75:8B:5D:A3:CD:1E:51:09:EB:AB"
+            ]
+        }
+    },
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.tripi.booker",
+            "sha256_cert_fingerprints": [
+                "45:07:38:EF:D4:2C:DD:CC:D0:F4:D7:E5:FF:E2:D9:C6:89:88:E6:35:1B:C8:75:8B:5D:A3:CD:1E:51:09:EB:AB"
+            ]
+        }
+    },
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.dinogo.android",
+            "sha256_cert_fingerprints": [
+                "45:07:38:EF:D4:2C:DD:CC:D0:F4:D7:E5:FF:E2:D9:C6:89:88:E6:35:1B:C8:75:8B:5D:A3:CD:1E:51:09:EB:AB"
+            ]
+        }
+    },
+    {
+        "relation": ["delegate_permission/common.handle_all_urls"],
+        "target": {
+          "namespace": "android_app",
+          "package_name": "com.dinogo.android.develop",
+          "sha256_cert_fingerprints": [
+              "45:07:38:EF:D4:2C:DD:CC:D0:F4:D7:E5:FF:E2:D9:C6:89:88:E6:35:1B:C8:75:8B:5D:A3:CD:1E:51:09:EB:AB"
+            ]
+        }
+    }
+]

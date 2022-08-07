@@ -1,0 +1,54 @@
+.post-featured-review {
+  &-item {
+    max-width: 100%;
+    box-shadow: none !important;
+    background-color: #f2f4f6 !important;
+    border: 1px solid #e5ebed;
+    border-radius: 5px !important;
+    min-height: 170px ;
+
+    .MuiCardHeader-action {
+      margin-top: -12px;
+    }
+
+    &-box-title {
+      display: flex;
+      align-items: center;
+    }
+    &-name {
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 150%;
+      color: #3d3f40;
+      margin-right: 15px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      min-width: 150px;
+      max-width: 85%;
+      display: block;
+    }
+    &-rating {
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 150%;
+    }
+    &-time {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 150%;
+      color: #899296;
+    }
+    &-content {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 150%;
+      color: #3d3f40;
+      margin: 0px;
+      display: inline-block;
+      span {
+        background-color: #f2f4f6 !important;
+      }
+    }
+  }
+}

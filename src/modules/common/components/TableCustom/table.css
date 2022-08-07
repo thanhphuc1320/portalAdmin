@@ -1,0 +1,11 @@
+.custom-table-row:hover > td {
+  background: #e0f2f1;
+}
+.custom-table-row-disabled > td {
+  background: #3D3F40;
+  cursor: none !important;
+  opacity: 0.5;
+}
+.custom-table-cell {
+  background: white;
+}

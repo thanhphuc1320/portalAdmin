@@ -1,0 +1,13 @@
+select#option-select-css {
+  border: 1px solid #c1c6c9;
+  box-sizing: border-box;
+  border-radius: 5px;
+  height: 40px;
+  margin-right: 16px;
+  padding: 0px 12px;
+  min-width: 166px;
+}
+
+*:focus {
+  outline: none;
+}

@@ -1,0 +1,19 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M5.5 7C5.5 5.61929 6.61929 4.5 8 4.5H16C17.3807 4.5 18.5 5.61929 18.5 7V16C18.5 16.8284 17.8284 17.5 17 17.5H7C6.17157 17.5 5.5 16.8284 5.5 16V7Z" stroke="#757575"/>
+<line x1="5.5" y1="7.5" x2="18.5" y2="7.5" stroke="#757575" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="5.5" y1="11.5" x2="18.5" y2="11.5" stroke="#757575" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="8.5" cy="14.5" r="1" stroke="#757575"/>
+<circle cx="15.5" cy="14.5" r="1" stroke="#757575"/>
+<mask id="path-6-inside-1" fill="white">
+<path d="M4 9C4 8.44772 4.44772 8 5 8V11C4.44772 11 4 10.5523 4 10V9Z"/>
+</mask>
+<path d="M4 9C4 8.44772 4.44772 8 5 8V11C4.44772 11 4 10.5523 4 10V9Z" fill="#00796B"/>
+<path d="M4 8V11H6V8H4ZM5 10V9H3V10H5ZM5 10H3C3 11.1046 3.89543 12 5 12V10ZM5 7C3.89543 7 3 7.89543 3 9H5V9V7Z" fill="#757575" mask="url(#path-6-inside-1)"/>
+<mask id="path-8-inside-2" fill="white">
+<path d="M19 8C19.5523 8 20 8.44772 20 9V10C20 10.5523 19.5523 11 19 11V8Z"/>
+</mask>
+<path d="M19 8C19.5523 8 20 8.44772 20 9V10C20 10.5523 19.5523 11 19 11V8Z" fill="#00796B"/>
+<path d="M19 9V10H21V9H19ZM20 11V8H18V11H20ZM19 10V12C20.1046 12 21 11.1046 21 10H19ZM19 9H21C21 7.89543 20.1046 7 19 7V9Z" fill="#757575" mask="url(#path-8-inside-2)"/>
+<rect x="6.5" y="17.5" width="2" height="2" rx="0.5" stroke="#757575"/>
+<rect x="15.5" y="17.5" width="2" height="2" rx="0.5" stroke="#757575"/>
+</svg>

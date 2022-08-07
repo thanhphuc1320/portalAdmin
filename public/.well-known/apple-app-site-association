@@ -1,0 +1,18 @@
+{ 
+    "applinks": { 
+        "details": [ 
+            { 
+                "appID": "5562SB72PP.vn.tripi.social.app", 
+                "paths": [ "/*" ] 
+            },
+            { 
+                "appID": "7B6HPN26DA.com.tripi.ios.booker", 
+                "paths": [ "/*" ] 
+            },
+            {
+                "appID": "9MF6N7N7A8.com.dinogo.ios", 
+                "paths": [ "/*" ] 
+            }
+        ] 
+    } 
+}

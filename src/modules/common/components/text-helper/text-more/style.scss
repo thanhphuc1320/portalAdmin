@@ -1,0 +1,9 @@
+.p-text-more {
+  a {
+    text-decoration: underline;
+  }
+  &_less {
+    display: block;
+    text-align: center;
+  }
+}

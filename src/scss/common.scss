@@ -1,0 +1,42 @@
+.pager-section-form {
+  margin: 10px 0px;
+  padding: 12px 20px;
+}
+
+.page-list-table-header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  padding: 15px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+// scrollbar
+.scrollbar::-webkit-scrollbar {
+  width: 3.5px;
+}
+.scrollbar::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+.scrollbar::-webkit-scrollbar-thumb {
+  background: #888;
+}
+.scrollbar::-webkit-scrollbar-thumb:hover {
+  background: red;
+}
+
+// scrollbar-2
+.scrollbar-2::-webkit-scrollbar {
+  width: 3.5px;
+}
+.scrollbar-2::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+.scrollbar-2::-webkit-scrollbar-thumb {
+  background: #CC0066;
+}
+.scrollbar-2::-webkit-scrollbar-thumb:hover {
+  background: #888;
+}

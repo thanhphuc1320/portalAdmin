@@ -1,0 +1,46 @@
+.event-list-component {
+  &-head-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    padding: 16px 35px 5px 16px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  &-soft-createdAt {
+    .MuiInput-underline:before {
+      border-bottom: none;
+    }
+  }
+}
+
+.event-filter-card {
+  position: relative;
+  top: -5px;
+  height: calc(100% - 30px);
+  padding: 15px 15px;
+  overflow: unset !important;
+  &-createdFrom > div {
+    left: unset;
+    right: 0;
+  }
+}
+
+.form-event-create-update {
+  &-select-list {
+    .MuiListItem-button {
+      padding: 8px 16px !important;
+    }
+  }
+}
+
+.uploadImageOne {
+  button {
+    > div {
+      padding: 0 !important;
+      margin-right: 0 !important;
+      margin-bottom: 0 !important;
+    }
+  }
+}

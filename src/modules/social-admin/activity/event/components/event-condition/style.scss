@@ -1,0 +1,45 @@
+.event-condition-paper {
+  margin-top: 20px;
+  &-head {
+    padding: 20px 15px;
+  }
+  &-body {
+    &-empty {
+      min-height: 120px;
+    }
+  }
+  &-reward-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  &-condition {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    &-bottom {
+      &-infos {
+        display: flex;
+        justify-items: center;
+        margin-top: 15px;
+        p,
+        span {
+          display: inline-block;
+        }
+      }
+    }
+  }
+}
+
+.event-condition-form {
+  &-condition-list {
+    border: 1.5px dashed #ddd;
+    border-radius: 5px;
+    margin: 10px 0px 15px 0px;
+    padding: 5px;
+    min-width: 1240px;
+    max-height: 311px;
+    overflow: auto;
+  }
+}

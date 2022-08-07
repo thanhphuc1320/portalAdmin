@@ -1,0 +1,60 @@
+.MuiCheckbox-indeterminate {
+  color: $PINK !important;
+}
+
+.limit-text-1 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+
+.limit-text-2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+
+.limit-text-3 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+
+.text-primary {
+  color: $PRIMARY !important;
+}
+
+.text-danger {
+  color: $RED !important;
+}
+
+.text-blue {
+  color: $BLUE !important;
+}
+
+.flex,
+.d-flex {
+  display: flex;
+}
+
+.flex-row {
+  display: flex;
+  align-items: center;
+}
+
+.ml-4 {
+  margin-left: 4px;
+}
+.mr-4 {
+  margin-right: 4px;
+}
+
+.pointer {
+  cursor: pointer !important;
+}

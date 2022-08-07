@@ -1,0 +1,62 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true
+    },
+    "extends": ["airbnb", "airbnb/hooks", "prettier", "prettier/react"],
+    "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly"
+    },
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 2018,
+        "sourceType": "module"
+    },
+    "plugins": ["react", "react-hooks", "@typescript-eslint", "prettier"],
+    "rules": {
+        "no-unused-expressions": "off",
+        "no-use-before-define": "off",
+        "@typescript-eslint/no-use-before-define": ["error"],
+        "@typescript-eslint/no-unused-vars": ["error"],
+        "no-unused-vars": "error",
+        "no-console": "error",
+        "no-constant-condition": 0,
+        "no-await-in-loop": 0,
+        "no-return-await": 0,
+        "no-empty": "off",
+        "no-continue": "off",
+        "no-restricted-syntax": "off",
+        "arrow-parens": "off",
+        "arrow-body-style": "off",
+        "object-curly-newline": "off",
+        "no-return-assign": "off",
+        "linebreak-style": "off",
+        "import/extensions": 0,
+        "import/no-unresolved": 0,
+        "import/no-extraneous-dependencies": "off",
+        "import/prefer-default-export": 0,
+        "import/order": "off",
+        "react/state-in-constructor": "off",
+        "react/jsx-no-duplicate-props": "off",
+        "react/prop-types": [0],
+        "react/jsx-wrap-multilines": "off",
+        "react/jsx-props-no-spreading": "off",
+        "react/jsx-filename-extension": [1, {
+            "extensions": [".tsx", ".jsx"]
+        }],
+        "react-hooks/rules-of-hooks": "error",
+        "react-hooks/exhaustive-deps": "error",
+        "react/no-array-index-key": "off",
+        "react/no-unused-state": "off",
+        "react/no-did-update-set-state": "off",
+        "react/destructuring-assignment": "off",
+        "react/no-danger": "off",
+        "consistent-return": "off",
+        "no-param-reassign": "off",
+        "prettier/prettier": "error"
+    }
+}

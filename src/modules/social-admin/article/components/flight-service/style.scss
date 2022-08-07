@@ -1,0 +1,187 @@
+.article-flight-service {
+  &-box-empty {
+    min-height: 236px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  &-box-list-added {
+    padding: 17px 15px;
+  }
+  &-bottom {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
+    min-height: 70px;
+  }
+}
+
+.flight-service-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5px 0;
+  padding: 10px 5px;
+  overflow: unset !important;
+  background-color: #fff;
+  &-left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+}
+
+.flight-service-cel {
+  &.MuiTableCell-root {
+    padding: 5px 17px;
+    text-align: center;
+    border-bottom: 1px solid #f5f5f5;
+  }
+  .cel-box-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 70px;
+  }
+
+  .text-limit {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 170px;
+  }
+  &.cel-airline {
+    position: relative;
+    .flight-airline-name {
+      font-weight: bold;
+      font-size: 13px;
+      line-height: 16px;
+      color: #3d3f40;
+    }
+    .operatingAirlineName {
+      display: block;
+      width: 360px;
+      text-align: left;
+      font-size: 13px;
+      line-height: 16px;
+      color: #899296;
+      position: absolute;
+      bottom: 2px;
+      left: 30px;
+    }
+  }
+  &.cel-from {
+    .cel-box-col {
+      align-items: flex-start;
+    }
+  }
+  &.cel-to {
+    .cel-box-col {
+      align-items: flex-end;
+    }
+  }
+  &.cel-from,
+  &.cel-to {
+    .flight-from-airport,
+    .flight-to-airport {
+      &-box {
+        background: #f1f2f5;
+        padding: 0px 8px;
+        border-radius: 2px;
+      }
+      &-code {
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 14px;
+        color: #1473ae;
+      }
+      &-name {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        margin-top: 10px;
+      }
+    }
+  }
+
+  .flight-departure {
+    margin: 0 15px;
+    &-datetime {
+      min-width: 110px;
+      display: flex;
+      align-items: center;
+    }
+    &-date {
+      margin: auto;
+      font-weight: normal;
+      font-size: 13px;
+      line-height: 16px;
+      text-align: center;
+      color: #737272;
+    }
+    &-dot-middle {
+      display: inline-block;
+      width: 2px;
+      height: 2px;
+      border-radius: 50%;
+      background-color: #899296;
+      margin: 0 4px;
+    }  
+    &-oneWay-text {
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 16px;
+      text-align: center;
+      color: #737272;
+    }
+    &-oneWay-text {
+      white-space: nowrap;
+    }
+    &-oneWay-box {
+      border: 1px solid #c1c6c9;
+      box-sizing: border-box;
+      border-radius: 4px;
+      padding: 0 4px;
+    }
+    &-operating-box {
+      background: #c1c6c9;
+      border-radius: 2px;
+      padding: 0px 5px;
+      margin: 5px 2px;
+      min-width: 10px;
+    }
+    &-operating-text {
+      font-size: 12px;
+      line-height: 16px;
+      text-align: center;
+      color: #ffffff;
+    }
+  }
+
+  &.cel-ticket-class {
+    .flight-ticket-class {
+      &-icon {
+        width: auto;
+        height: 21px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 6px;
+        border-radius: 5px;
+        font-weight: bold;
+        font-size: 14px;
+        color: #ffffff;
+        margin-bottom: 5px;
+      }
+    }
+  }
+
+  &.cel-btn-remove {
+    cursor: pointer;
+  }
+}

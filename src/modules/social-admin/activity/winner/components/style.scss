@@ -1,0 +1,64 @@
+.winner-list-component {
+  &-head-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    padding: 16px 35px 5px 16px;
+    width: 100%;
+    box-sizing: border-box;
+    &-group-button {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      position: relative;
+      top: -5px;
+    }
+    &-link {
+      color: #276ef1;
+      font-weight: bold;
+      text-decoration: none;
+    }
+  }
+  &-soft-createdAt {
+    .MuiInput-underline:before {
+      border-bottom: none;
+    }
+  }
+}
+
+.winner-filter-card {
+  position: relative;
+  top: -5px;
+  height: calc(100% - 30px);
+  padding: 15px 15px;
+  overflow: unset !important;
+  &-createdFrom > div {
+    left: unset;
+    right: 0;
+  }
+}
+
+.winner-status-histories-dialog {
+  max-width: 780px;
+  margin: auto;
+  &-list {
+    height: 60vh;
+    overflow: auto;
+    > .MuiPaper-elevation1 {
+      box-shadow: unset;
+    }
+    table {
+      .MuiTableRow-head {
+        background-color: #f7f7f7;
+      }
+      th {
+        padding: 15px 0px 15px 15px;
+        background-color: #f7f7f7;
+      }
+      th h6 {
+        color: #3d3f40 !important;
+      }
+    }
+  }
+}

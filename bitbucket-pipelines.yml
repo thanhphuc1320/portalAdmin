@@ -1,0 +1,27 @@
+pipelines:
+  branches:
+    develop:
+      - step:
+          name: UnitTest
+          image: gradle
+          script:
+            - echo "Apply unit-test here"
+      - step:
+          name: Build
+          image: node:14.17.0
+          caches:
+            - node
+          script:
+            - sed -i "s/dev\./web\.app/g" ./src/constants.ts
+            - npm install
+            - npm run build
+          artifacts:
+            - build/**
+            - firebase.json
+            - .firebaserc
+      - step:
+          name: Publish
+          image: andreysenov/firebase-tools
+          deployment: dev
+          script:
+            - firebase deploy --token "$FIREBASE_TOKEN"

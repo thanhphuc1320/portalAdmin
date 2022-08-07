@@ -1,0 +1,16 @@
+.item-list-component {
+    &-head-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #eee;
+      padding: 16px 35px 5px 16px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    // &-soft-createdAt {
+    //   .MuiInput-underline:before {
+    //     border-bottom: none;
+    //   }
+    // }
+  }

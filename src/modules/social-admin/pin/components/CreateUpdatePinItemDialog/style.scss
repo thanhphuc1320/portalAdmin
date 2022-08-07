@@ -1,0 +1,114 @@
+.create-pin-list-component {
+    &-head-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #eee;
+      padding: 16px 35px 5px 16px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    &-soft-createdAt {
+      .MuiInput-underline:before {
+        border-bottom: none;
+      }
+    }
+}
+
+.create-pin-dialog {
+  &-wrapper {
+    padding: 10px 25px;
+    min-height: 80vh;
+  }
+
+  &-title {
+    display: flex;
+    justify-content: center;
+    font-size: 20px !important;
+    line-height: 150% !important;
+    font-weight: 700 !important;
+    color: #3D3f40 !important;
+  }
+  &-body {
+    margin-bottom: 20px;
+    &-left-result {
+      padding-top: 30px;
+      max-width: 250px;
+    }
+    &-right-result {
+      margin-top: 30px;
+      background-color: #F7F7F7;
+      max-width: 250px;
+    }
+    &-result {
+      padding: 0 20px;
+      padding-bottom: 20px;
+      max-width: 570px;
+    }
+    &-no-search {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 95%;
+      position: relative;
+    }
+  }
+  &-table-component {
+    &-wrapper {
+      box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.05), -2px -2px 4px rgba(0, 0, 0, 0.05);
+      margin-top: 24px;
+      &-box-pagination {
+        display: flex;
+        justify-content: flex-end;
+      }
+    }
+
+    &-sort {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      &-text {
+        display: inline-block;
+      }
+      &-icon {
+        position: relative;
+        right: -7px;
+      }
+    }
+    &-bottom {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 25px;
+      &-box-count.error {
+        color: red;
+      }
+    }
+  }
+}
+
+.pin-card {
+  position: relative;
+  top: -5px;
+  height: calc(100% - 30px);
+  padding: 15px 15px;
+  overflow: unset !important;
+  &-createdFrom > div {
+    left: unset;
+    right: 0;
+  }
+
+  box-shadow: unset !important;
+}
+
+#outlined-adornment-location {
+  padding:10px 14px ;
+  .MuiInputLabel-outlined {
+    .MuiInputLabel-shrink {
+      transform: translate(10px, 0) scale(0.75) !important;
+    }
+  }
+}
+
+

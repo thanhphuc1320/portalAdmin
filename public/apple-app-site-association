@@ -1,0 +1,48 @@
+{ 
+    "applinks": { 
+        "details": [ 
+            { 
+                "appID": "5562SB72PP.vn.tripi.social.app", 
+                "components": [
+                    {
+                      "#": "no_universal_links",
+                      "exclude": true,
+                      "comment": ""
+                    },
+                    {
+                      "/": "/sampleapp/*",
+                      "comment": ""
+                    }
+                ]
+            },
+            {
+              "appID": "9MF6N7N7A8.com.dinogo.ios", 
+              "components": [
+                  {
+                    "#": "no_universal_links",
+                    "exclude": true,
+                    "comment": ""
+                  },
+                  {
+                    "/": "/dinogo/*",
+                    "comment": ""
+                  }
+              ]
+            },
+            { 
+                "appID": "7B6HPN26DA.com.tripi.ios.booker", 
+                "components": [
+                    {
+                      "#": "no_universal_links",
+                      "exclude": true,
+                      "comment": ""
+                    },
+                    {
+                      "/": "/partner/*",
+                      "comment": ""
+                    }
+                ]
+            }
+        ] 
+    } 
+}

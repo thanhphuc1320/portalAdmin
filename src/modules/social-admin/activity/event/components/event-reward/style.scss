@@ -1,0 +1,79 @@
+.event-reward-paper {
+  padding: 15px;
+}
+
+.event-reward-list-filter {
+  &-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &-left {
+      width: 180px;
+    }
+    &-right {
+      display: flex;
+      justify-content: flex-end;
+      &-box-form {
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+  &-body {
+    &-empty {
+      min-height: 120px;
+    }
+  }
+}
+
+.event-reward-paper {
+  padding: 15px;
+  &-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &-left {
+      width: 170px;
+    }
+    &-right {
+      display: flex;
+      justify-content: flex-end;
+      &-box-form {
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+  &-body {
+    &-empty {
+      min-height: 120px;
+    }
+  }
+}
+
+.eventRewardDialog {
+  &-container {
+    padding: 5px 15px;
+  }
+  &-left {
+    border-right: 1px solid #eee;
+    padding-right: 15px;
+  }
+  &-right {
+    padding: 15px;
+  }
+  &-review-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &-right {
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+}
+
+.EventRewardUpdateDialog.eventRewardDialog-left {
+  border-right: none;
+  padding-right: 0px;
+}

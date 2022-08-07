@@ -1,0 +1,51 @@
+.censor-list-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: -15px;
+  &-upload-button {
+    background-color: #cc0066 !important;
+    color: white !important;
+    svg {
+      filter: brightness(5.5);
+    }
+  }
+  &-search-button {
+    .MuiInputBase-root {
+      background-color: #f7f7f7;
+    }
+  }
+}
+
+.customHeight {
+  .MuiInputBase-root {
+    height: 100% !important;
+  }
+}
+
+.filter-content-import-dialog {
+  .MuiPaper-root {
+    width: 375px !important;
+    height: 250px !important;
+    align-items: center;
+  }
+}
+
+.customTextArea {
+  width: 99%;
+  margin: 0;
+  padding-left: unset;
+  min-width: unset;
+  height: unset !important;
+  border-color: #ced4da !important;
+  resize: none;
+  padding-right: unset;
+  padding: 0;
+  border-radius: 4px;
+  align-content: center;
+  overflow: auto;
+  padding-bottom: 25px;
+  padding-top: 15px;
+  padding-left: 10px;
+}
